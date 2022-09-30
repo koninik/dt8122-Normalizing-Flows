@@ -2,6 +2,15 @@
 
 Assignment report and code for ProbAI 2022 Summer School.
 
+# Planar Flows
+  ```bash
+  python main_planar.py 
+  ```
+
+# Real-NVP
+  ```bash
+  python main_realnvp.py 
+  ```
 
 # Continuous Normalizing Flows (CNF)
 
