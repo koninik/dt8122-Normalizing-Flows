@@ -23,6 +23,10 @@ The gifs can also be found in the folder gifs or below:
 
 ## Two Moons
 ![](https://github.com/koninik/dt8122-Normalizing-Flows/blob/main/gifs/cnf-Two_Moons.gif)
+
+## Two Blobs
 ![](https://github.com/koninik/dt8122-Normalizing-Flows/blob/main/gifs/cnf-Two_Blobs.gif)
+
+## Boomerang
 ![](https://github.com/koninik/dt8122-Normalizing-Flows/blob/main/gifs/cnf-Boomerang.gif)
  
