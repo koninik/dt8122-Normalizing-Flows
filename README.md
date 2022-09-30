@@ -21,6 +21,7 @@ To run the code for the CNF please use the following command. With the following
 
 The gifs can also be found in the folder gifs or below:
 
+## Two Moons
 ![](https://github.com/koninik/dt8122-Normalizing-Flows/blob/main/gifs/cnf-Two_Moons.gif)
 ![](https://github.com/koninik/dt8122-Normalizing-Flows/blob/main/gifs/cnf-Two_Blobs.gif)
 ![](https://github.com/koninik/dt8122-Normalizing-Flows/blob/main/gifs/cnf-Boomerang.gif)
