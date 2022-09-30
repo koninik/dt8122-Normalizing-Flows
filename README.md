@@ -8,8 +8,14 @@ Assignment report and code for ProbAI 2022 Summer School.
   ```
 
 # Real-NVP
+
+To train the Real-NVP flow use the following command
   ```bash
-  python main_realnvp.py 
+  python main_realnvp.py --dataset_idx 0 --train_flag True
+  ```
+After traing, to execute the inference and sampling that also create the wanted plots use the following:
+  ```bash
+  python main_realnvp.py --dataset_idx --train_flag False
   ```
 
 # Continuous Normalizing Flows (CNF)
