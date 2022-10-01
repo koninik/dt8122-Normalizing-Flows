@@ -2,9 +2,16 @@
 
 Assignment report and code for ProbAI 2022 Summer School.
 
+# conda environment
+
+To create the conda environment with the necessary packages please use the following command
+  ```bash
+  conda env create --file nf_env.txt
+  ```
+
 # Planar Flows
   ```bash
-  python main_planar.py 
+  python main_planar.py -- dataset_idx 0 --K 32
   ```
 
 # Real-NVP
