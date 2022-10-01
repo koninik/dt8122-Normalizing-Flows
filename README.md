@@ -4,7 +4,7 @@ Assignment report and code for ProbAI 2022 Summer School.
 
 # Planar Flows
   ```bash
-  python main_planar.py 
+  python main_planar.py -- dataset_idx 0 --K 32
   ```
 
 # Real-NVP
