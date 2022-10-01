@@ -2,7 +2,7 @@
 
 Assignment report and code for ProbAI 2022 Summer School.
 
-#Conda environment
+# conda environment
 
 To create the conda environment with the necessary packages please use the following command
   ```bash
