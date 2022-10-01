@@ -160,11 +160,11 @@ def visualize(t0, t1, viz_samples, viz_timesteps, target_sample, dataset_name):
             if args.gif == True:
                 #Plot from Normal to Data Distribution to create the GIF
                 plt.tricontourf(*z_t1.detach().cpu().numpy().T, np.exp(logp.detach().cpu().numpy()), 200)
-                plt.savefig(f'./results/cnf/{dataset_name}_cnf_{int(t*1000):05d}.png')
+                plt.savefig(f'./results/{dataset_name}_cnf_{int(t*1000):05d}.png')
                 
         if args.gif == True:
-            img, *imgs = [Image.open(f) for f in sorted(glob.glob(os.path.join('./results/cnf', f"{dataset_name}_cnf_*.png")))]
-            img.save(fp=os.path.join('./results/cnf', f"cnf-viz-{dataset_name}.gif"), format='GIF', append_images=imgs,
+            img, *imgs = [Image.open(f) for f in sorted(glob.glob(os.path.join('./results', f"{dataset_name}_cnf_*.png")))]
+            img.save(fp=os.path.join('./results', f"cnf-viz-{dataset_name}.gif"), format='GIF', append_images=imgs,
                         save_all=True, duration=250, loop=0)
 
         print('Saved visualization animation at {}'.format(os.path.join(args.results_dir, "cnf-viz-{dataset_name}.gif")))
@@ -246,7 +246,7 @@ if __name__ == '__main__':
     parser.add_argument('--hidden_dim', type=int, default=32)
     parser.add_argument('--gpu', type=int, default=0)
     parser.add_argument('--train_dir', type=str, default='./models/')
-    parser.add_argument('--results_dir', type=str, default="./results/cnf")
+    parser.add_argument('--results_dir', type=str, default="./results")
     parser.add_argument('--dataset_idx', type=int, help='0: two_moons, 1: two_blobs, 2: boomerang', default=2)
     args = parser.parse_args()
 

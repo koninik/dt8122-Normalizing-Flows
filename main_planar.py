@@ -12,7 +12,6 @@ import argparse
 from utils import subfig_plot
 
 
-
 def train(model, training_data, prior_z, optimizer, epochs, batch_num, device, args):    
     print('Training')
     loss_sum = 0
@@ -89,6 +88,8 @@ if __name__== "__main__":
     
     args = parser.parse_args()
     
+
+
     #device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     device = 'cpu'
     if args.dataset_idx == 0:
