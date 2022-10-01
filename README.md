@@ -1,7 +1,7 @@
 # dt8122 - Normalizing-Flows
 
 Assignment report and code for ProbAI 2022 Summer School.
-The assignment was submitted on the 30th of September at 23:37 AoE time Zone or 1st of October at 13:38 CET 
+The assignment was submitted on the 30th of September at 23:37 AoE time Zone or 1st of October at 13:38 CET.
 
 # conda environment
 
